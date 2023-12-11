@@ -105,12 +105,12 @@ footer{
 
 /* ======================== Media Querys for General Layout========================== */
 
-@media (max-width: 767px){
+@media all and (max-width: 767px){
 
   .threeIcons {
     width: 100%;
   }
-  .threeIcons section{
+  .threeIcons .secWithinThreeIcons{
     width: 32.7%;
     margin-bottom: 6px;
   }
@@ -136,7 +136,7 @@ footer{
 
 }
 
-@media (max-width:480px){
+@media all and (max-width: 480px){
   main{
     width: 100%;
     height: 100vh;
@@ -144,7 +144,7 @@ footer{
   .threeIcons {
     width: 100%;
   }
-  .threeIcons section{
+  .threeIcons .secWithinThreeIcons{
     width: 90%;
     margin-bottom: 2px;
   }
